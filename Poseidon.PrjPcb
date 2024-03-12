@@ -84,7 +84,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document3]
-DocumentPath=SCH\Conn_24vie.SchDoc
+DocumentPath=SCH\Front_End.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -118,8 +118,20 @@ GenerateClassCluster=0
 DocumentUniqueId=UPHSTIBE
 
 [SearchPath1]
-Path=LIB\*.*
+Path=..\ALTIUM_Lib\SSlib_v001\*.*
 IncludeSubFolders=1
+
+[Parameter1]
+Name=SCHtot
+Value=2
+
+[Parameter2]
+Name=Prj_Name
+Value=Poseidon
+
+[Parameter3]
+Name=Prj_Date
+Value=12/03/2024
 
 [Configuration1]
 Name=Sources
